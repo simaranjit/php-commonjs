@@ -41,7 +41,7 @@ After cloning this repo, you will find three directories and one file
  
  ##Minify source code
  This library by default supports minified version and that can also be changed. To avoid creating minfied version of file, minor tweak is required. Here are the steps.
- - Open `compile.php` file and look for code:
+ Open `compile.php` file and look for code:
  ```
  (new \CommonJS\CommonJS())->save(true);
  ```
