@@ -21,13 +21,13 @@ After cloning this repo, you will find three directories and one file
  ###Compiled
  This directory stores default compiled file, named `script.js` in it.
  
- ##How to use this library
+##How to use this library
  Usage of this library is pretty simple and easy.
  
  It requires simply putting all the commonJS files under source directory and running compiile.php file from CLI, using somethign like this
  ```>php compile.php```
  
- ##Change Destination path
+##Change Destination path
  There could be the case that custom destination path is needed. That is also pretty easy here. It requires minor tweak in `compile.php` file. Here are the steps.
  - Open `compile.php` file and look for code:
  ```
@@ -39,7 +39,7 @@ After cloning this repo, you will find three directories and one file
  ```
  Changing source path is not possible since it doesn't make sense.
  
- ##Minify source code
+##Minify source code
  This library by default supports minified version and that can also be changed. To avoid creating minfied version of file, minor tweak is required. Here are the steps.
  Open `compile.php` file and look for code:
  ```
