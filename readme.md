@@ -51,3 +51,6 @@ After cloning this repo, you will find three directories and one file
  ```
  ##What are the libraries used internally
  This package uses two different PHP libraries MattCG and JShrink.
+
+##Minimum PHP version requirement
+PHP 5.3
