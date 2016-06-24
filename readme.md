@@ -54,3 +54,9 @@ After cloning this repo, you will find three directories and one file
 
 ##Minimum PHP version requirement
 PHP 5.3
+
+##Things to take care during implementation
+ - All new modules should come under `src/modules`
+ - `Source` and `Compiled` directories should have proper permissions
+ - If custom destination location is used, make sure that destination have proper exceptions.
+ - compile.php must be executed after writing code.
