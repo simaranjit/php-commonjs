@@ -49,7 +49,8 @@ After cloning this repo, you will find three directories and one file
  ```
  (new \CommonJS\CommonJS())->save(false);
  ```
- ##What are the libraries used internally
+ 
+##What are the libraries used internally
  This package uses two different PHP libraries MattCG and JShrink.
 
 ##Minimum PHP version requirement
